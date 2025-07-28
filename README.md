@@ -1,22 +1,20 @@
-# 💇‍♀️ Hair Craft - Salon Appointment Booking Website
+# Hair Craft - Salon Appointment Booking Website
 
-A complete web-based appointment booking system for **Hair Craft** Salon. This system allows customers to conveniently book appointments online, view services and pricing, submit feedback, and explore the latest offers.
+A complete web-based appointment booking system for **Hair Craft** Salon. This system allows customers to conveniently book appointments online, view services and pricing, and explore the latest offers.
 
 ---
 
-## 📌 Features
+## Features
 
 - ✅ Book appointments with preferred time slots
 - ✅ View service list with prices and durations
-- ✅ Submit customer feedback after service
 - ✅ Display monthly and festival offers
 - ✅ Fully responsive and user-friendly design
-- ✅ Admin can update service and offer details
-- ✅ In-shop payment only (no online payments)
-
+- ✅ Admin can view appointments booked
+  
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Technology      | Description                          |
 |----------------|--------------------------------------|
@@ -28,19 +26,17 @@ A complete web-based appointment booking system for **Hair Craft** Salon. This s
 
 ---
 
-## 🗃️ Database Structure
+## Database Structure
 
 - **Database**: `salon`
 
 ### Tables:
 - `APPOINTMENTS` - Stores bookings
-- `FEEDBACK` - Stores user reviews
+- `ADMIN` - Stores admin login credentials
 - `SERVICES` - Stores available salon services
 - `OFFERS` - Stores monthly/festival offers
 
 ---
-
-## 🚀 Getting Started
 
 ### 1. Clone the Repository
 
